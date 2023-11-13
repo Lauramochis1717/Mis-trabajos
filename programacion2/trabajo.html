@@ -7,7 +7,53 @@
     <link rel="stylesheet" href="trabajo.css">
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <h1>Funciones</h1>
+    <br>
+    <h2>Suma de numeros</h2>
+    <label for="suma">Ingresa dos numeros para poder ser sumados</label> <br>
+    <input type="number" name="suma" id="suma1" required>
+    <input type="number" name="suma" id="suma2" required>
+    <br> <br>
+    <button onclick="suma()">Siguiente</button>
+
+    <div class="resultado1" id="resultado1" style="display: none;">
+        <br>
+    </div>
+    <br> <br><br>
+
+    <h2>Cuadrado de un número</h2>
+    <label for="cuadrado">Ingresa un número para elevarlo al cuadrado</label> <br>
+    <input type="number" name="cuadrado" id="cuadrado1" required>
+    <br> <br>
+    <button onclick="cuadrado()">Siguiente</button>
+
+    <div class="resultado2" id="resultado2" style="display: none;">
+        <br>
+    </div>
+    <br><br><br>
+
+    <h2>Verificación de número par</h2>
+    <label for="par">Ingresa un número para verificar si este es par</label> <br>
+    <input type="number" name="par" id="par" required>
+    <br><br>
+    <button onclick="par()">Siguiente</button>
+
+    <div class="resultado3" id="resultado3" style="display: none;">
+        <br>
+    </div>
+    <br><br><br>
+
+    <h2>Saludo al usuario</h2>
+    <label for="nombre">Ingresa tu nombre para mandarte un saludo</label> <br>
+    <input type="text" name="nombre" id="nombre" required>
+    <br><br>
+    <button onclick="saludo()">Siguiente</button>
+
+    <div class="resultado4" id="resultado4" style="display: none;">
+        <br>
+    </div>
+    <br><br><br>
+
     <script src="trabajo.js"></script>
 </body>
 </html>

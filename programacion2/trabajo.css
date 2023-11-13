@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+}
+input {
+    width: 30%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+}
+button {
+    background-color: black;
+    color: whitesmoke;
+    height: 30px;
+}

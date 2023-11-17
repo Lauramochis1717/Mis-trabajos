@@ -2,6 +2,10 @@ let sumar = (num1, num2) => num1 + num2;
 let cuadradoo = (num3) => num3 * num3;
 let esPar = (num4) => num4 % 2 === 0;
 let saludar = (nom) => `Hola, ${nom}!`;
+let filtrarPares = (arreglo1) => arreglo1.filter(item => item % 2 === 0);
+let promedioo = (arreglo) => arreglo.reduce((a, b) => a + b) / arreglo.length;
+
+let miarreglo2 = [];
 
 function suma() {
     let a = parseInt(document.getElementById("suma1").value);
@@ -82,4 +86,19 @@ function saludo() {
 
         resultado4.style.display = "none";
     }
+}
+
+function filtro() {
+    let miarreglo = document.getElementById("arreglo").value.split(",");
+    for (let i = 0; i < miarreglo.length; i++) {
+        if (filtrarPares(miarreglo[i])) {
+            miarreglo2.push(miarreglo[i]);
+        }
+    }
+    alert(`${miarreglo2}`);
+}
+
+function promedio() {
+    let promedio = document.getElementById("promedio").value.split(",");
+    
 }

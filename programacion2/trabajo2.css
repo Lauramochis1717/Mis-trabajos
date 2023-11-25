@@ -1,0 +1,18 @@
+.formulario {
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+h1{
+    font-family: monospace;
+}
+button{
+    background-color: limegreen;
+    color: whitesmoke;
+    width: 100px;
+}
